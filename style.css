@@ -296,3 +296,16 @@ footer > div:last-child {
   flex:9;
   color:white;
 }
+
+@media screen and (max-width: 768px) {
+  .search_area {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav {
+    flex-direction: column;
+    algin-items: center;
+    width: 100%;
+  }
+}
